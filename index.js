@@ -12,7 +12,7 @@ bookOfTheDay = {
   nameOfBook: "Унесенные ветром",
   author: "Маргарет Митчел",
   yearOfPublication: 1936,
-  numberOfPage: 1088,
+  numberOfPage: 1089,
 };
 console.log(bookOfTheDay);
 
