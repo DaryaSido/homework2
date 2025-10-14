@@ -36,3 +36,4 @@ const SayHello = "Добро пожаловать, ${userName}";
 function registrationFormSubmit() {
   alert("Вы зарегистрированы");
 }
+///jjjj
