@@ -138,17 +138,17 @@
 // const timer = newTimer(101, 5);
 // timer();timer();timer();timer();timer();timer();timer();timer();
 
-function newTimer(start, end) {
-    let currentValue=start;
-    const timeOut = setInterval(function() {
-  if (currentValue>=end) {
-        console.log(`Таймер: ${currentValue}`);
-        currentValue --;
-    }
-    else {
-        console.log(`Таймер завершен. ${currentValue+1}`)
-        clearInterval (timeOut);
-    }
-    }, 1000 )
-}
-newTimer(11, 5);
+// function newTimer(start, end) {
+//     let currentValue=start;
+//     const timeOut = setInterval(function() {
+//   if (currentValue>=end) {
+//         console.log(`Таймер: ${currentValue}`);
+//         currentValue --;
+//     }
+//     else {
+//         console.log(`Таймер завершен. ${currentValue+1}`)
+//         clearInterval (timeOut);
+//     }
+//     }, 1000 )
+// }
+// newTimer(11, 5);
