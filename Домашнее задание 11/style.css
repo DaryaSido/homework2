@@ -1,0 +1,28 @@
+.header {
+    width: 300px;
+    margin-bottom: 40px;
+    font-size: 89px;
+    font-weight: 700;
+    padding: 20px;
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+.container {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: brown;
+}
+.green_button {
+    background-color: green;
+    color: white;
+}
+.main_li {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
