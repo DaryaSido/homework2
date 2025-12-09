@@ -33,7 +33,17 @@ input.addEventListener("input", function(event) {
 inputValue = event.target.value;
 console.log("Добавить", inputValue);
 });
-
+const taskLoader = function loadTask() {
+    const tasks = JSON.parse(localStorage.getItem("Дела на вечер")) || [];
+    tasks.forEach(task => {
+    const li = document.createElement("li");
+    li.classList.add("main_li");
+    li.textContent = task;
+    toDoList.appendChild(li);
+    }
+   )
+}
+taskLoader();
 const addList = function addTask() {
     const newTask = inputValue.trim();
     if (newTask.length === 0) {
